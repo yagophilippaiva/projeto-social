@@ -11,16 +11,18 @@ body{
     background-size: cover;
 }
 main{
+    height: 100vh;
     position: relative;
 }
 section#tel{
+    position: absolute;
     width: 311px;
     height: 627px;
-    top: -10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
-    margin: auto;
-    margin-top: 10px;
 }
 iframe#tela{
     position: relative;
