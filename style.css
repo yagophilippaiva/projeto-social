@@ -49,3 +49,8 @@ iframe#tela{
     height: 375px;
     width: 210px;
 }
+a#botao{
+    position: relative;
+    top: 112px;
+    left: -114px;
+}
